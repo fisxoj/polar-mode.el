@@ -19,7 +19,7 @@
 ;; Author: Matt Novenstern
 ;; Version: 0.0.1
 ;; Keywords: languages polar
-;; Package-Requires: ((emacs "26.1"))
+;; Package-Requires: ((emacs "20.1"))
 ;; URL: https://github.com/fisxoj/polar-mode.el
 ;;
 ;; This file is not part of GNU Emacs.
