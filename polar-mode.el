@@ -38,7 +38,9 @@
           ("\\([A-Z][a-zA-Z0-9]*\\):" . font-lock-constant-face)
           ("[A-Z][a-zA-Z0-9]*" . font-lock-type-face)
           (,(regexp-opt keywords 'words) . font-lock-keyword-face)
-          (,(regexp-opt boolean 'words) . font-lock-constant-face))))
+          (,(regexp-opt boolean 'words) . font-lock-constant-face)
+          ;; Inline queries
+          ("^\\?=" . font-lock-warning-face))))
 
 (define-derived-mode polar-mode prog-mode "Polar"
   "Major mode for editing polar policies."
