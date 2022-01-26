@@ -30,7 +30,7 @@
 (add-to-list 'auto-mode-alist (cons "\\.polar\\'" 'polar-mode))
 
 (setq polar-highlights
-      (let ((keywords '("and" "cut" "debug" "forall" "if" "in" "isa" "matches" "mod" "new" "not" "or" "print" "rem"))
+      (let ((keywords '("and" "cut" "debug" "forall" "if" "in" "isa" "matches" "mod" "new" "not" "or" "print" "rem" "resource"))
             (operators '(":=" "*" "/" "-" "+" "|" ""))
             (boolean '("true" "false")))
         `(("\\s-\\(_[a-zA-Z_][a-zA-Z0-9_]*\\)" . (1 font-lock-comment-face))
